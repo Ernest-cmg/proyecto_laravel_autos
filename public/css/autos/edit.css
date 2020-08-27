@@ -1,0 +1,31 @@
+.header_contenedor{
+   position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_contenedor_titulo{
+   position: relative;
+ flex: 3;
+}
+
+
+.header_contenedor_eliminar{
+    position: relative;
+    flex: 1;
+
+}
+.header_contenedor_eliminar button{
+  position: relative;
+    top: 10px;
+    left: 60px;
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+.header_contenedor_eliminar i{
+
+padding: 0px 5px;
+
+}

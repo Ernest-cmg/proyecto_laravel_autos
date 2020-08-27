@@ -1,0 +1,62 @@
+.register_contenedor{
+ position: relative;
+   display: flex;
+    flex-wrap: wrap;
+}
+
+.register_contenedor_img{
+
+    position: relative;
+    padding: 10px 0px;
+
+    flex: 1;
+
+
+}
+
+.div_img{
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 25%;
+    border-radius: 50%;
+    border: 2px dashed darkgreen;
+    cursor: pointer;
+}
+
+.div_img img{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.div_img p{
+    position: absolute;
+    left: 30px;
+    top: 55px;
+    font-size: 20px;
+
+}
+.div_img p:hover{
+color: orangered !important;
+
+}
+
+.img_register{
+    display: none;
+}
+
+.register_contenedor_titulo{
+    position: relative;
+    flex: 2;
+}
+
+.register_contenedor_titulo p{
+    position: relative;
+    font-size: 30px;
+    left: 70px;
+    top: 60px;
+}
+

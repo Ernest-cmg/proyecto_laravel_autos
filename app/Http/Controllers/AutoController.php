@@ -23,9 +23,11 @@ class AutoController extends Controller
      */
     public function index()
     {
-        $autos = Auto::all();
+        $autos = Auto::paginate(1);
 
-        $cantidad = $autos->count();
+        $todos = Auto::all();
+
+        $cantidad = $todos->count();
 
         return view('autos.index',compact('autos', 'cantidad'));
     }

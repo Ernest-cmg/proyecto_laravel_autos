@@ -102,6 +102,8 @@
                 @endforeach
 
 
+                {{$autos->links()}}
+
                    @else
 
 
@@ -176,6 +178,8 @@
 
                     </div>
                 @endforeach
+
+                    {{$autos->links()}}
             @endguest
         </div>
 
